@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html lang="en">
+<html>
+	<head>
+		<title>Insadong</title>
+        <style>
+			.myimage {
+	width:600px; height:400px; margin:50px
+}
+
+.imgbox {
+	height:500px; width:500px; 
+	float:left;
+	margin: 10px;
+	position:relative;
+}
+
+.caption {
+	position:absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 300px;	
+	visibility:hidden;
+}
+
+.imgbox:hover .caption{
+	visibility: visible;
+}
+		
+		</style>
+		<meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css" type="text/css" >
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
+    <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+	</head>
+
+	<body style ="background-color:black;" onLoad="MM_preloadImages('https://www.google.com/search?q=brigadeiro&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjehvOC5uzLAhUHwmMKHW8gBXkQ_AUIBygB&amp;biw=840&amp;bih=857#imgrc=yrzhsF9DKmlfJM%3A');MM_preloadImages('https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjBus3d5uzLAhXDXyYKHbV5CtcQjBwIBA&amp;url=http%3A%2F%2Fespecialsaude.com.br%2Fwp-content%2Fuploads%2F2015%2F12%2FPlanos-de-Sa%25C3%25BAde-no-Rio-de-Janeiro.jpg&amp;psig=AFQjCNHLL7dFMx_dw5k0ROKM4kTqTGxvOg&amp;ust=1459578216602628','image2.jpg','image4.jpg')">
+
+		<div id="outercontainer">
+
+		    <div id="header" onClick="MM_goToURL('parent','frontpage.html');return document.MM_returnValue">
+                The Ultimate Guide to Seoul, South Korea
+            </div><!-- end header-->	
+          
+
+            <div id="actual-page">
+                <span style="padding-left: 20px">PLACES TO VISIT-- INSADONG</span>
+            </div>
+
+            <div id="menu-left">
+                <div id="menu">
+                    <ul>
+                        <li><a href="frontpage.html">Home</a>
+                        </li>
+                        <li><a href="history.html">Background</a>
+                        </li>    
+                        <li><a>Foods/Cuisines</a>
+                            <ul>
+                                <li><a href="food.html">Street Food</a></li>
+                                <li><a href="bibimbap.html">Bibimbap</a></li>
+                                <li><a href="chicken.html">Korean Fried Chicken</a></li>
+                                <li><a href="snacks.html">Snacks/Desserts</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Places to Visit</a>
+                            <ul>
+                                <li><a href="seoultower.html">Seoul Tower</a></li>
+                                <li><a href="myungdong.html">Myung-dong</a></li>
+                                <li><a href="insadong.html">Insadong</a></li>
+                                <li><a href="village.html">Bukchon Hanok Village</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a>
+                        </li>
+                  </ul>
+                </div>
+
+            </div><!-- end article-->
+
+		
+			<div style="clear:both"></div>
+
+          <div id="left">
+                </br>
+                <span style="padding-left:20px;font-size:32px;">Insadong</span>
+                <p style="padding-left:20px;color:green"><strong>Seoul's Best Cultural Experience</strong></p>
+
+            </br>
+                <img id="topic-image" src="insadong.jpg">
+
+                <div id="mainText">
+                    <p class= "paragraph">Insa-dong is a neighborhood of the Jongno-gu district of the South Korean city of Seoul. The main street,Insadong-gil is connected to a multitude of alleys that lead deeper into the district, with modern galleries, gift shops, and tea shops. At one time it was the largest market for antiques and artworks in Korea.</p>
+
+                    <p class= "paragraph">Insa-dong Street is one of the most memorable attractions in Seoul and represents the focal point of Korean traditional culture and crafts. Stores in Insa-dong specialize in a wide variety of goods that can only be purchased or appreciated in Korea: hanbok (traditional clothing), hanji (traditional paper), traditional teas, pottery, and folk crafts. Insadong-gil is well known as a traditional street to both locals and foreigners and represents the culture of the past and the present. It contains a mixture of historical and modern atmosphere and is a unique area of Seoul that truly represents the cultural history of the nation.</p>
+
+                    <p class= "paragraph">The area is well known for sightseeing, with approximately 100,000 visitors on Sundays reported in 2000. Insa-dong is also a visiting spot for foreign dignitaries such as Queen Elizabeth II and the princes of Spain and the Netherlands. It contains 40 percent of the nation's antique shops and art galleries as well as 90 percent of the traditional stationery shops. Particularly noteworthy is Tongmungwan, the oldest bookstore in Seoul, and Kyung-in Art Gallery, the oldest tea house. There are daily calligraphy demonstrations and pansori dancing performances.</p>
+    <div class="imgbox"><img class="myimage" src="image1.jpg"/>
+    <div class="caption" id="caption1">Traditional Masks at Insadong</div>
+    </div><!-- close caption1 -->
+
+	<div class="imgbox"><img class="myimage" src="image2.jpg"/>
+    <div class="caption" id="caption2">Handmade Teacups and Teapots</div>
+    </div><!-- close caption2 -->
+
+	<div class="imgbox"><img class="myimage" src="image3.jpg"/>
+    <div class="caption" id="caption3">Small Shop Selling Fans</div>
+    </div><!-- close caption3 -->
+
+                    </ol>
+              </div>    
+
+
+            </br>
+          </div>  
+
+             <div id="rightfeed">
+                
+                <span style="color:white;font-size:18px">VISIT SEOUL</span>
+                </br>
+                </br>
+
+               <a class="twitter-timeline" href="https://twitter.com/VisitSeoul" data-widget-id="725991704268967936">Tweets by @VisitSeoul</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+            </div>
+
+		</div><!-- end outercontainer-->
+	</body>
+
+</html>

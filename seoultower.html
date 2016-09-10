@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html lang="en">
+<html>
+    <head>
+        <title>Seoul Tower</title>
+        <style>
+		.myimage {
+	width:600px; height:400px; margin:50px
+}
+
+.imgbox {
+	height:500px; width:500px; 
+	float:left;
+	margin: 10px;
+	position:relative;
+}
+
+.caption {
+	position:absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 300px;	
+	visibility:hidden;
+}
+
+.imgbox:hover .caption{
+	visibility: visible;
+}
+
+		</style>
+        <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css" type="text/css" >
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
+    <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    </head>
+
+    <body style ="background-color:black;" onLoad="MM_preloadImages('https://www.google.com/search?q=brigadeiro&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjehvOC5uzLAhUHwmMKHW8gBXkQ_AUIBygB&amp;biw=840&amp;bih=857#imgrc=yrzhsF9DKmlfJM%3A');MM_preloadImages('https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjBus3d5uzLAhXDXyYKHbV5CtcQjBwIBA&amp;url=http%3A%2F%2Fespecialsaude.com.br%2Fwp-content%2Fuploads%2F2015%2F12%2FPlanos-de-Sa%25C3%25BAde-no-Rio-de-Janeiro.jpg&amp;psig=AFQjCNHLL7dFMx_dw5k0ROKM4kTqTGxvOg&amp;ust=1459578216602628','tower2.jpg','tower4.jpg')">
+
+        <div id="outercontainer">
+
+            <div id="header" onClick="MM_goToURL('parent','frontpage.html');return document.MM_returnValue">
+                The Ultimate Guide to Seoul, South Korea
+            </div><!-- end header-->    
+          
+
+            <div id="actual-page">
+                <span style="padding-left: 20px">PLACES TO VISIT--SEOUL TOWER</span>
+            </div>
+
+                        <div id="menu-left">
+                <div id="menu">
+                    <ul>
+                        <li><a href="frontpage.html">Home</a>
+                        </li>
+                        <li><a href="history.html">Background</a>
+                        </li>    
+                        <li><a>Foods/Cuisines</a>
+                            <ul>
+                                <li><a href="food.html">Street Food</a></li>
+                                <li><a href="bibimbap.html">Bibimbap</a></li>
+                                <li><a href="chicken.html">Korean Fried Chicken</a></li>
+                                <li><a href="snacks.html">Snacks/Desserts</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Places to Visit</a>
+                            <ul>
+                                <li><a href="seoultower.html">Seoul Tower</a></li>
+                                <li><a href="myungdong.html">Myung-dong</a></li>
+                                <li><a href="insadong.html">Insadong</a></li>
+                                <li><a href="village.html">Bukchon Hanok Village</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a>
+                        </li>
+                  </ul>
+                </div>
+
+            </div><!-- end article-->
+
+        
+            <div style="clear:both"></div>
+
+          <div id="left">
+                </br>
+                <span style="padding-left:20px;font-size:32px;">Seoul Tower</span>
+                <p style="padding-left:20px;color:green"><strong>Seoul's Highest Point</strong></p>
+
+            </br>
+                <img id="topic-image" src="seoultower.jpg">
+
+                <div id="mainText">
+                    <p class= "paragraph">The N Seoul Tower, officially the YTN Seoul Tower and more commonly known as the Namsan Tower or Seoul Tower, is a communication and observation tower located on Namsan Mountain in central Seoul, South Korea. At 236m, it marks the highest point in Seoul.</p>
+
+                    <p class= "paragraph">Built in 1969, and at a cost of approximately 2.5 million USD, the tower was opened to the public in 1980. Seoul Tower was completed on December 3, 1971, designed by architects at Jangjongryul though at the time the facility interior was not furnished. It took until August 1975, for the third floor of the observatory deck, museum, open hall, souvenir shop, in addition to bring the other facilities to completion.</p>
+
+                    <p class= "paragraph">Many visitors ride the Namsan cable car up the Mt. Namsan to walk to the tower. The tower is renowned as a national landmark, and for its cityscape. It attracts millions of tourists and locals every year, especially during nighttime when the tower lights up. Photographers enjoy the panoramic view the tower offers. Each year, approximately 8.4 million visit the N Seoul Tower, which is surrounded by many other attractions South Korea offers, including Namsan Park and Namsangol Hanok Village. The N Seoul Tower is divided into three main parts, including the N Lobby, N Plaza, and the N Tower.</p>
+
+                    <p class="paragraph">In 2008, the Teddy Bear Museum was open at the Tower, with a 7-metre Christmas tree made with 300 teddy bears to celebrate the opening. It showcases teddy bears in the past, present, and future of Seoul, as well as teddy bears models in Seoul attractions, such as the Cheonggyecheon Stream, Myeongdong, Insadong, and Dongdaemun.</p>
+
+                    <p class="paragraph">In a poll of nearly 2,000 foreign visitors, conducted by the Seoul Metropolitan Government in November 2011, 16 percent stated that hanging named padlocks on the Tower fence as a symbol of love was their favorite activity in Seoul. This attraction is situated on the 2nd floor of the N Plaza, at the Roof Terrace. The "Locks of Love" is a popular location for people to hang locks that symbolize eternal love, and has been depicted in many Korean television shows, dramas, and movies for this reason.</p>
+
+                    <p class= "paragraph">There's so much to do at the Seoul Tower, and it's hard to be disappointed by the great view the city offers. It is a great place to get a meal with a family or come see the view with your friends.</p>
+                    
+    <div class="imgbox"><img class="myimage" src="tower1.jpg"/>
+    <div class="caption" id="caption1">The Locks of Love</div>
+    </div><!-- close caption1 -->
+
+	<div class="imgbox"><img class="myimage" src="tower2.jpg"/>
+    <div class="caption" id="caption2">The view of the Seoul Tower</div>
+    </div><!-- close caption2 -->
+
+	<div class="imgbox"><img class="myimage" src="tower3.jpg"/>
+    <div class="caption" id="caption3">Seoul Tower During the Night</div>
+    </div><!-- close caption3 -->
+
+
+                    </ol>
+                    </div>
+            </br>
+          </div>  
+
+            <div id="rightfeed">
+                
+                <span style="color:white;font-size:18px">VISIT SEOUL</span>
+                </br>
+                </br>
+
+               <a class="twitter-timeline" href="https://twitter.com/VisitSeoul" data-widget-id="725991704268967936">Tweets by @VisitSeoul</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+            </div>
+
+        </div><!-- end outercontainer-->
+    </body>
+
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html lang="en">
+<html>
+	<head>
+		<title>Village</title>
+        <style>
+		.myimage {
+	width:600px; height:400px; margin:50px
+}
+
+.imgbox {
+	height:500px; width:500px; 
+	float:left;
+	margin: 10px;
+	position:relative;
+}
+
+.caption {
+	position:absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 300px;	
+	visibility:hidden;
+}
+
+.imgbox:hover .caption{
+	visibility: visible;
+}
+        </style>
+		<meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css" type="text/css" >
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
+    <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+	</head>
+
+	<body style ="background-color:black;" onLoad="MM_preloadImages('https://www.google.com/search?q=brigadeiro&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjehvOC5uzLAhUHwmMKHW8gBXkQ_AUIBygB&amp;biw=840&amp;bih=857#imgrc=yrzhsF9DKmlfJM%3A');MM_preloadImages('https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjBus3d5uzLAhXDXyYKHbV5CtcQjBwIBA&amp;url=http%3A%2F%2Fespecialsaude.com.br%2Fwp-content%2Fuploads%2F2015%2F12%2FPlanos-de-Sa%25C3%25BAde-no-Rio-de-Janeiro.jpg&amp;psig=AFQjCNHLL7dFMx_dw5k0ROKM4kTqTGxvOg&amp;ust=1459578216602628','village2.jpg','village4.jpg')">
+
+		<div id="outercontainer">
+
+		    <div id="header" onClick="MM_goToURL('parent','frontpage.html');return document.MM_returnValue">
+                The Ultimate Guide to Seoul, South Korea
+            </div><!-- end header-->	
+          
+
+            <div id="actual-page">
+                <span style="padding-left: 20px">PLACES TO VISIT-- BUKCHON HANOK VILLAGE</span>
+            </div>
+
+            <div id="menu-left">
+                <div id="menu">
+                    <ul>
+                        <li><a href="frontpage.html">Home</a>
+                        </li>
+                        <li><a href="history.html">Background</a>
+                        </li>    
+                        <li><a>Foods/Cuisines</a>
+                            <ul>
+                                <li><a href="food.html">Street Food</a></li>
+                                <li><a href="bibimbap.html">Bibimbap</a></li>
+                                <li><a href="chicken.html">Korean Fried Chicken</a></li>
+                                <li><a href="snacks.html">Snacks/Desserts</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Places to Visit</a>
+                            <ul>
+                                <li><a href="seoultower.html">Seoul Tower</a></li>
+                                <li><a href="myungdong.html">Myung-dong</a></li>
+                                <li><a href="insadong.html">Insadong</a></li>
+                                <li><a href="village.html">Bukchon Hanok Village</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a>
+                        </li>
+                  </ul>
+                </div>
+
+            </div><!-- end article-->
+
+		
+			<div style="clear:both"></div>
+<div id="left">
+        </br>
+        <span style="padding-left:20px;font-size:32px;">Bukchon Hanok Village</span>
+    <p style="padding-left:20px;color:green"><strong>Seoul's Folk Experience</strong></p>
+
+            </br>
+                <img id="topic-image" src="bukchon.jpg">
+
+    <div id="mainText">
+      <p class= "paragraph">Bukchon Hanok Village is a Korean traditional village with a long history located between Gyeongbok Palace, Changdeok Palace and Jongmyo Royal Shrine. The traditional village is composed of lots of alleys, hanok and is preserved to show a 600-year-old urban environment. Now it is used as a traditional culture center and hanok restaurant, allowing visitors to experience the atmosphere of the Joseon Dynasty. The area of Bukchon, which consists of neighborhoods: Wonseo-dong, Jae-dong, Gye-dong, Gahoe-dong and Insa-dong, was traditionally the residential quarter of high-ranking government officials and nobility during the Joseon Dynasty. It is located north of Cheonggye Stream and Jongno, hence named Bukchon, which means north village.</p>
+      <p class= "paragraph">Today, many of these hanoks operate as cultural centers, guesthouses, restaurants and tea houses, providing visitors with an opportunity to experience, learn and immerse in Korean traditional culture. It is a great place to visit if you want to learn about the folk and rich history of South Korea. Additionally, the hanok village serves as a residential neighborhood for centuries now. Hanok villages are known for its unique architectural positioning: a lot of thought is given to land and seasons.</p>
+      <p class= "paragraph">With its recently-opened hanok gallery, craft workshop and hanok restaurant, the village is increasingly important as a center for culture and the arts. There are also a number of museums of traditional Korean culture including the Gahoe Museum, the Han Sangsu Embroidery Museum, the Museum of Korean Art and many more.</p>
+          <div class="imgbox"><img class="myimage" src="village4.jpg"/>
+    <div class="caption" id="caption1">A Beautiful Day at the Hanok Village</div>
+    </div><!-- close caption1 -->
+
+	<div class="imgbox"><img class="myimage" src="village2.jpg"/>
+    <div class="caption" id="caption2">Hanok Village is Popular Among Visitors</div>
+    </div><!-- close caption2 -->
+
+	<div class="imgbox"><img class="myimage" src="village3.jpg"/>
+    <div class="caption" id="caption3">The Patio of a Hanok House</div>
+    </div><!-- close caption3 -->
+    </div>
+</div>
+<div id="rightfeed">
+                
+    <span style="color:white;font-size:18px">VISIT SEOUL</span>
+    </br>
+    </br>
+
+    <a class="twitter-timeline" href="https://twitter.com/VisitSeoul" data-widget-id="725991704268967936">Tweets by @VisitSeoul</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+            </div>
+		</div><!-- end outercontainer-->
+	</body>
+
+</html>
